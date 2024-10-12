@@ -1,6 +1,5 @@
 Here is the cleaned-up and properly formatted `README.md` for your GitHub repository:
 
-```markdown
 # RFID Attendance System
 
 This project is a basic RFID-based attendance system that records attendance using RFID tags. The system consists of a Node.js backend built with Express and MongoDB, and a React frontend that allows users to manually submit attendance. Additionally, attendance is automatically recorded when an ESP8266 (or other microcontroller) sends an RFID check request to the backend.
@@ -134,5 +133,4 @@ const attendanceSchema = new mongoose.Schema({
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
