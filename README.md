@@ -1,4 +1,3 @@
-Here is the cleaned-up and properly formatted `README.md` for your GitHub repository:
 
 # RFID Attendance System
 
@@ -21,8 +20,8 @@ Before running this project, ensure you have the following installed:
 ## Project Structure
 
 ```bash
-/backend   # Contains the Express server and MongoDB schema
-/frontend  # React app for manual attendance submission and display
+/rfid-attendance-System  # Contains the Express server and MongoDB schema
+/rfid-attendance-frontend # React app for manual attendance submission and display
 ```
 
 ## Backend Setup
