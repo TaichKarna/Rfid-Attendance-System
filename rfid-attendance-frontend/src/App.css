@@ -1,0 +1,85 @@
+/* App.css */
+
+.App {
+  max-width: 900px; /* Limit the width of the app */
+  margin: 0 auto; /* Center the app on the page */
+  padding: 20px; /* Add padding around the content */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-block: auto;
+  width: 100%;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center; /* Center the main title */
+  color: #4CAF50; /* Green title color */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+
+
+button {
+  background-color: #4CAF50; /* Green button background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded button corners */
+  padding: 10px 15px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 10px; /* Padding inside input fields */
+  margin: 5px 0; /* Margin around input fields */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  width: calc(100% - 22px); /* Full width minus padding and border */
+  background-color: white;
+  color: blue
+}
+
+input[type="text"]:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  outline: none; /* Remove outline */
+}
+
+table {
+  width: 100%; /* Full width for the table */
+}
+
+td, th {
+  text-align: left; /* Align text to the left */
+  padding: 10px; /* Padding inside table cells */
+}
+
+tr:nth-child(even) {
+  background-color: rgb(151, 151, 182); /* Light gray background for even rows */
+}
+
+tr:hover {
+  background-color: #ddd; /* Gray background on row hover */
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em; /* Smaller font size for title on small screens */
+  }
+
+  button {
+    width: 100%; /* Full-width button on small screens */
+  }
+}
+
+.attendance-list{
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
