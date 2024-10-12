@@ -34,7 +34,7 @@ Before running this project, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/your-repo/rfid-attendance-system.git
-cd rfid-attendance-system/backend
+cd rfid-attendance-system/rfid-attendance-system
 ```
 
 ### 2. Install Dependencies
@@ -74,7 +74,7 @@ The server will run on `http://localhost:3000`.
 ### 1. Navigate to the Frontend
 
 ```bash
-cd ../frontend
+cd ../rfid-attendance-frontend
 ```
 
 ### 2. Install Dependencies
